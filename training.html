@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Khóa học Lập Trình Web FullStack</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo:wght@500&family=Bai+Jamjuree:wght@500&family=Roboto:wght@500&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500&family=Bai+Jamjuree:wght@500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="stylesheet" href="/css/style_training.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/img_training/LOGO-APTECH-03-02-1.png" alt="" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Trang chủ</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              hanoi-aptech
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="intro.html">Giới thiệu</a></li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li><a class="dropdown-item" href="#">Cơ sở vật chất</a></li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li><a class="dropdown-item" href="#">Giảng viên</a></li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li><a class="dropdown-item" href="#">Hỏi đáp</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Chương trình đào tạo
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <a class="dropdown-item" href="#">Lập Trình Viên Quốc Tế ADSE</a>
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li>
+                <a class="dropdown-item active" href="training.html">Lập Trình Web FullStack</a>
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li><a class="dropdown-item" href="#">Các khóa ngắn hạn</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Liên thông</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Tin tức
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Tin về CNTT</a></li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li><a class="dropdown-item" href="#">Lịch thi</a></li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li><a class="dropdown-item" href="#">Lịch tuyển sinh</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              tuyển dụng
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Tin tuyển dụng</a></li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li><a class="dropdown-item" href="#">Góc nghề nghiệp</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="row1">
+    <a href="training.html" class="img">
+      <img src="img/img_training/1.png" alt="" />
+    </a>
+  </div>
+  <div class="card mb-3">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="img/img_training/imag0921.jpg" class="img-fluid rounded-start" alt="..." />
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <p class="card-text">
+            Khóa học có tên tiếng Anh là Information Technology Technician
+            (viết tắt là ITT). Đây là chương trình đào tạo của Aptech, nội
+            dung được chuyển ngữ sang Tiếng Việt.
+          </p>
+          <p class="card-text">
+            Chương trình được xây dựng dựa trên các tri thức Công nghệ Thông
+            tin mới nhất với sự khảo sát nhu cầu của trên 600 công ty phần mềm
+            nổi tiếng và được cập nhật hàng năm cho phù hợp với sự phát triển
+            của Công nghệ Thông tin nhằm cung cấp đội ngũ Kỹ Thuật Viên Công
+            nghệ Thông Tin có chuyên môn tốt, có khả năng làm việc trong môi
+            trường chuyên nghiệp và am hiểu công nghệ mới.
+          </p>
+          <p class="card-text">
+            Chương trình cung cấp cho người học các kiến thức nền tảng về máy
+            tính, lập trình, cơ sở dữ liệu, thiết kế và xây dựng trang website
+            bằng ngôn ngữ PHP.
+          </p>
+          <p class="card-text">
+            Ngoài kiến thức chuyên môn, học viên còn được bổ sung các kiến
+            thức để phát triển kỹ năng cá nhân, kỹ năng làm việc nhóm và năng
+            lực quản lý dự án.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card1">
+    <div class="row rcard1">
+      <h3>VÌ SAO NÊN HỌC LẬP TRÌNH FULLSTACK WEB DEVELOPER</h2>
+        <div class="col-sm-4 card1-text">
+          <div>
+            <i class="fa-solid fa-map"></i>
+            <span>Không lo thất nghiệp</span>
+            <p>80% trong số 10 triệu trang web hàng đầu sử dụng ngôn ngữ lập trình PHP.</p>
+          </div>
+        </div>
+        <div class="col-sm-4 card1-text">
+          <div>
+            <i class="fa-regular fa-gem"></i>
+            <span>Mã nguồn mở và sự tiện lợi</span>
+            <p>PHP không bị ràng buộc bởi các quy tắc; nó giúp cho lập trình viên tự do xây dựng mọi thứ mình muốn.</p>
+          </div>
+        </div>
+        <div class="col-sm-4 card1-text">
+          <div>
+            <i class="fa-solid fa-trophy"></i>
+            <span>Tính năng theo yêu cầu</span>
+            <p>PHP và MySQL có khả năng cung cấp rất nhiều tính năng theo nhu cầu cá nhân của các doanh nghiệp.</p>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="card2">
+    <div class="row rcard2">
+      <div class="card2-text">
+        <h2>
+          VỊ TRÍ CÔNG VIỆC SAU KHÓA HỌC
+        </h2>
+      </div>
+      <div class="col-sm-3">
+        <div>
+          <img src="img/img_training/2.png" alt="">
+          <h3>Thiết kế & lập trình website hiện đại với nhiều ngôn ngữ lập trình</h3>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div>
+          <img src="img/img_training/3.jpg" alt="">
+          <h3>Phân tích, thiết kế & lập trình cơ sở dữ liệu</h3>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div>
+          <img src="img/img_training/4.png" alt="">
+          <h3>Xây dựng, phát triển các tính năng mới đáp ứng nhu cầu người dùng</h3>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div>
+          <img src="img/img_training/5.png" alt="">
+          <h3>Quản lý và tăng hiệu suất hoạt động của website</h3>
+        </div>
+      </div>
+      <div class="card2-but">
+        <div class="card2-but_text">
+          <p>Chương trình học Kỹ thuật viên Quốc Tế được triển khai dựa trên mô hình đào tạo hiện đại, đa phương thức
+            AMEDA (Aptech Multi-modal Education Delivery Architecture) chú trọng nâng cao kỹ năng thực hành, định hướng,
+            thực hiện các dự án cuối mỗi học kỳ.</p>
+        </div>
+        <div class="card2-but_button">
+          <a href="">
+            <span>ĐĂNG KÍ HỌC</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card3">
+    <div class="row rcard3">
+      <h2>ĐỐI TƯỢNG THAM GIA KHÓA HỌC</h2>
+      <div class="col-sm-4 card3-text">
+        <div>
+          <img src="img/img_training/6.jpg" alt="">
+          <h3>Sinh viên ngành CNTT hoặc yêu thích lập trình tại các trường đại học, cao đẳng.</h3>
+        </div>
+      </div>
+      <div class="col-sm-4 card3-text">
+        <div>
+          <img src="img/img_training/7.jpg" alt="">
+          <h3>Làm việc tại các doanh nghiệp, muốn bổ sung kiến thức & kỹ năng phục vụ công việc. </h3>
+        </div>
+      </div>
+      <div class="col-sm-4 card3-text">
+        <div>
+          <img src="img/img_training/8.jpg" alt="">
+          <h3>Chưa có kiến thức về lập trình cũng có thể tham gia khóa học.</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card4">
+    <div class="row rcard4">
+      <div class="col-sm-6 card4-text">
+        <div class="card4-text_1">
+          <h3>KHÓA HỌC LẬP TRÌNH WEB FULLSTACK</h3>
+          <h2>LẬP TRÌNH CHẤT - PHẤT TƯƠNG LAI</h2>
+        </div>
+        <form>
+          <div class="mb-3 card4-mb">
+            <input type="text" placeholder="Họ và tên" class="form-control" id="exampleInputEmail1"
+              aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3 card4-mb">
+            <input type="email" placeholder="Email" class="form-control" id="exampleInputEmail1"
+              aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3 card4-mb">
+            <input type="text" placeholder="Số điện thoại" class="form-control" id="exampleInputEmail1"
+              aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3 card4-mb">
+            <input type="text" placeholder="Địa chỉ" class="form-control" id="exampleInputEmail1"
+              aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <select class="form-select card4-mb1" aria-label="Default select example">
+              <option selected>Trình độ</option>
+              <option value="1">Học sinh</option>
+              <option value="2">Sinh Viên</option>
+              <option value="3">Đi làm</option>
+              <option value="4">Khác</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary">GỬI ĐĂNG KÍ</button>
+        </form>
+      </div>
+      <div class="col-sm-6 card4-text_2">
+        <div class="card4-text_2_1">
+          <li class="card4-li">
+            <i class="fa-solid fa-bookmark"></i>
+            <span>Thời lượng: 226 giờ - 6 tháng</span>
+          </li>
+          <li class="card4-li">
+            <i class="fa-solid fa-bookmark"></i>
+            <span>Khai giảng dự kiến: Tháng 2/2022</span>
+          </li>
+          <li class="card4-li">
+            <i class="fa-solid fa-bookmark"></i>
+            <span>Có nhiều khung giờ phù hợp với mọi nhu cầu của học viên</span>
+          </li>
+        </div>
+        <div class="card4-text_2_2">
+          <li class="card4-li">
+            <i class="fa-solid fa-clock"></i>
+            <span>Giờ buổi sáng: học từ 8h đến 12h</span>
+          </li>
+          <li class="card4-li">
+            <i class="fa-solid fa-clock"></i>
+            <span>Giờ buổi chiều: học từ 13h30 đến 17h30</span>
+          </li>
+          <li class="card4-li">
+            <i class="fa-solid fa-clock"></i>
+            <span>Giờ buổi tối: học từ 17h30 đến 19h30 hoặc từ 19h30 đến 21h30</span>
+          </li>
+        </div>
+        <div class="card4-text_2_3">
+          <li class="card4-li">
+            <i class="fa-solid fa-bookmark"></i>
+            <span>Địa chỉ: Tầng 1, Tòa nhà C5, Đại học Thủy Lợi, 175 Tây Sơn, Trung Liệt, Đống Đa, Hà Nộ</span>
+          </li>
+          <li class="card4-li">
+            <i class="fa-solid fa-bookmark"></i>
+            <span>Đăng ký trực tuyến vào form dưới đây hoặc gọi điện đến hotline 0382.020.858 hoặc 0243.563.7511 để được
+              tư vấn trực tiếp</span>
+          </li>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card5">
+    <div class="row rcard5">
+      <h2>NỘI DUNG KHÓA HỌC</h2>
+      <div class="col-sm-6 card5-text_1">
+        <div>
+          <img src="img/img_training/9.png" alt="">
+        </div>
+      </div>
+      <div class="col-sm-6 card5-text_2">
+        <div>
+          <p>1. HTML5, CSS and Javascript – 40 giờ</p>
+          <p>2. BootStrap and Jquery – 16 giờ</p>
+          <p>3. eProject (Website Development) – 8 giờ</p>
+          <p>4. Data Management with SQL Server – 30 giờ</p>
+          <p>5. Web Application Development using PHP – 40 giờ</p>
+          <p>6. PHP Development with Laravel Framework – 24 giờ</p>
+          <p>7. Project PHP – 8 giờ</p>
+          <div class="dropdown card5-drop">
+            <a href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+              Học phí khóa học
+            </a>
+            <ul class="dropdown-menu card5-drop_menu" aria-labelledby="dropdownMenuLink">
+              <li>Học sinh: 13.280.000 VNĐ</li>
+              <li>Sinh viên: 12.450.000 VNĐ</li>
+              <li>Người đi làm: 16.600.000 VNĐ</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card6">
+    <div class="row card6-text">
+      <h2>ĐỐI TÁC CỦA HANOI - APTECH</h2>
+      <div class="col-sm-2">
+        <img src="img/img_training/logo1.png" alt="">
+      </div>
+      <div class="col-sm-2">
+        <img src="img/img_training/logo3.png" alt="">
+      </div>
+      <div class="col-sm-2">
+        <img src="img/img_training/logo4.png" alt="">
+      </div>
+      <div class="col-sm-2">
+        <img src="img/img_training/logo5.png" alt="">
+      </div>
+      <div class="col-sm-2">
+        <img src="img/img_training/logo6.jpg" alt="">
+      </div>
+      <div class="col-sm-2">
+        <img src="img/img_training/logo7.png" alt="">
+      </div>
+    </div>
+    <div class="card7">
+      <div class="row rcard7">
+        <div class="col-sm-4 card7-text">
+          <div class="card7-text_1">
+            <h2>KHÓA HỌC SẮP KHAI GIẢNG</h2>
+            <a href="">
+              <i class="fa-solid fa-caret-right"></i>
+              <span>Lập trình viên Quốc Tế</span>
+            </a>
+            <a href="">
+              <i class="fa-solid fa-caret-right"></i>
+              <span>Lập trình Web Full-Stack</span>
+            </a>
+            <a href="">
+              <i class="fa-solid fa-caret-right"></i>
+              <span>Khóa học Lập trình Java</span>
+            </a>
+            <a href="">
+              <i class="fa-solid fa-caret-right"></i>
+              <span>Khóa học Lập trình C#</span>
+            </a>
+            <iframe
+              src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Faptech.vn%2F&amp;tabs=timeline&amp;width=310&amp;height=130&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId"
+              width="310" height="100" style="border: none; overflow: hidden;" scrolling="no" frameborder="0"
+              allowfullscreen="true"
+              allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+          </div>
+        </div>
+        <div class="col-sm-4 card7-text">
+          <div>
+            <h2>LIÊN HỆ</h2>
+            <span>Địa chỉ: Tầng 1, Tòa nhà C5, Đại học Thủy Lợi, 175 Tây Sơn, Trung Liệt, Đống Đa, Hà Nội</span>
+            <span>Tel: (024) 3563 7511</span>
+            <span>Hotline: 038 2020 858</span>
+            <span>Mail: info@aptech.vn</span>
+          </div>
+        </div>
+        <div class="col-sm-4 card7-text">
+          <h2>ĐĂNG KÝ TƯ VẤN</h2>
+          <form class="card7-form">
+            <div class="mb-3 card7-mb">
+              <input type="text" placeholder="Họ và tên" class="form-control" id="exampleInputEmail1"
+                aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3 card7-mb">
+              <input type="email" placeholder="Email" class="form-control" id="exampleInputEmail1"
+                aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3 card7-mb">
+              <input type="text" placeholder="Số điện thoại" class="form-control" id="exampleInputEmail1"
+                aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <select class="form-select card7-mb" aria-label="Default select example">
+                <option selected>Trình độ</option>
+                <option value="1">Học sinh</option>
+                <option value="2">Sinh Viên</option>
+                <option value="3">Đi làm</option>
+                <option value="4">Khác</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-primary">GỬI ĐĂNG KÍ</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
