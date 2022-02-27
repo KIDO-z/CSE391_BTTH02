@@ -23,7 +23,7 @@ html {
 .header-inner {
   height: 90px;
   width: 100%;
-  padding: 0 15px;
+  padding: 0 20px;
   background-color: #fff;
   display: flex;
   justify-content: space-around;
@@ -41,6 +41,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: auto;
 }
 
 .logo-img img {
@@ -107,12 +108,11 @@ html {
 }
 
 .Menu > li:hover .sub-menu li a {
-  min-width: 160px;
+  min-width: 200px;
   padding: 12px 16px;
   display: block;
   text-decoration: none;
   color: black;
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
 
@@ -410,10 +410,13 @@ html {
   cursor: pointer;
 }
 
-/* .background-black {
-  background: linear-gradient(black, white);
-  opacity: 0.3;
-} */
+.background-black {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
 
 .ontent-right-one-body_one_img {
   position: absolute;
@@ -428,12 +431,21 @@ html {
   color: #fff;
   font-size: 18px;
   text-decoration: none;
-  word-wrap: none;
+  display: inline-block;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .content-right-one-body_one_like p {
   color: #fff;
   font-size: 12px;
+}
+
+.content-right-like-share {
+  display: flex;
+  justify-content: space-around;
 }
 
 .content-right-one-title {
@@ -447,7 +459,9 @@ html {
   margin: 30px 10px;
   cursor: pointer;
 }
-
+.content-share {
+  color: rgb(133, 133, 133) !important;
+}
 .content-right-one-title i {
   color: #112db9;
   margin-top: 3px;
@@ -506,9 +520,9 @@ html {
 .content-right-three_body_from5 button {
   width: 265px;
   height: 40px;
-  background-color: #fffb05;
+  background-color: #edb017;
   border-radius: 10px;
-  border: #fffb05;
+  border: #edb017;
   font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
